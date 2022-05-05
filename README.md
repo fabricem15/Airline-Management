@@ -1,7 +1,6 @@
-Name: Fabrice Mikobi
-Student Number: 101196480
-Preamble: A parts control application for an airline company in C++. The main interface allows the user to run safety checks, add aircrafts to the airline and install parts in the aircraft. 
-Source files:
+# Overview
+A parts control application for an airline company in C++. The main interface allows the user to run safety checks, add aircrafts to the airline and install parts in the aircraft. 
+# Source files
   - Aircraft.cc
   - Airline.cc
   - Control.cc
@@ -9,7 +8,7 @@ Source files:
   - main.cc
   - Part.cc
   - View.cc
-Header files:
+# Header files
   - Aircraft.h
   - Airline.h
   - Array.h
@@ -18,10 +17,8 @@ Header files:
   - defs.h
   - View.h
 
-
-# ###################
-Compilation commands:
+# Compilation commands:
   `make` to compile all sources files into object files and produce the program executable called `a4`
-Launching commands:
+# Launching commands:
   launch the program with `./a4`
       - using valgrind: `valgrind --leak-check=full ./a4`
